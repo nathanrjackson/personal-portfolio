@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-Personal Repository to Showcase Projects and Skills
+Personal repository to showcase projects and skills
