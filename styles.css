@@ -58,7 +58,7 @@ header h1,
 }
 
 /* Dropdown bar */
-.dropbtn {
+.drop-button {
     display: none;
     padding: 15px;
     color: var(--background-color);
@@ -68,7 +68,7 @@ header h1,
     border-radius: 5px;
 }
 
-.dropbtn:hover {
+.drop-utton:hover {
     color: var(--text-color);
     background-color: var(--background-color);
 }
@@ -128,7 +128,7 @@ main {
         display: none;
     }
 
-    .dropbtn {
+    .drop-button {
         display: block;
     }
 }
