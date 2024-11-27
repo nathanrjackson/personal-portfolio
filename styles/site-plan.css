@@ -1,33 +1,34 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #a42212;
-  --accent2-color: white;
+  --text-color:#000000;
+  --background-color: #F3EFE0;
+  --accent-color: #7180AC;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Roboto";
+  --paragraph-font: "PT Serif";
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: var(
-    --primary-color
+    --text-color
   ); /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
+  --headline-color-on-color: var(
+    --background-color
+  ); /* headlines on a colored background */
   --paragraph-color-on-white: var(
-    --primary-color
+    --text-color
   ); /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: var(--primary-color);
-  --nav-link-color: var(--primary-color);
-  --nav-background-color: var(--secondary-color);
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: var(--primary-color);
+  --paragraph-color-on-color: var(--background-color); /* paragraph text on a colored background */
+  --paragraph-background-color: var(--text-color);
+  --nav-link-color: var(--background-color);
+  --nav-background-color: var(--text-color);
+  --nav-hover-link-color: var(--text-color);
+  --nav-hover-background-color: var(--background-color);
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -85,18 +86,19 @@ p {
   background-color: #999;
 }
 .colors td {
+  color: orange;
   width: 25%;
   height: 3em;
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: var(--text-color);
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: var(--background-color);
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: var(--accent-color);
 }
 .accent2 {
   background-color: var(--accent2-color);

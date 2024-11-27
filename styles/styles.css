@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    font-family: "PT Serif";
+}
+
 :root {
     --text-color:#000000;
     --background-color: #F3EFE0;
@@ -39,7 +43,7 @@ header h1 {
 header h1,
 .navbar a {
     color: var(--background-color);
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
 }
 
 .navbar {
