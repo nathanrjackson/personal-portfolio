@@ -86,11 +86,16 @@ p {
   background-color: #999;
 }
 .colors td {
-  color: orange;
   width: 25%;
   height: 3em;
 }
 
+.colors .primary {
+  color: white;
+}
+.wireframes {
+  padding: 1em 0em 2em 1em;
+}
 .primary {
   background-color: var(--text-color);
 }
