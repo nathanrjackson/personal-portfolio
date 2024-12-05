@@ -14,31 +14,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="top">
     <header>
-        <a href="">
+        <a href="index.html">
             <h1>Nathan Jackson</h1>
         </a>
         <div class="navbar">
-            <a href="">About</a>
-            <a href="">Aspirations</a>
-            <a href="">Experience</a>
-            <a href="">Contact</a>
+            <a href="#about">About</a>
+            <a href="#aspirations">Aspirations</a>
+            <a href="projects.html">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
         <div class="dropdown">
             <button class="drop-button">Menu</button>
             <div class="dropdown-content">
-                <a href="">About</a>
-                <a href="">Aspirations</a>
-                <a href="">Experience</a>
-                <a href="">Contact</a>
+                <a href="#about">About</a>
+                <a href="#aspirations">Aspirations</a>
+                <a href="projects.html">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
     </header>
     <main>
         <section class="about">
             <div class="introduction">
-                <h1>Who am I?</h1>
+                <h1 id="about">Who am I?</h1>
                 <img src="images/professional_picture.jpg" alt="professional picture of Nathan Jackson">
                 <p>Hi there! My name is Nathan Jackson and I am a software engineering student with a minor in web development at Brigham Young University-Idaho.</p>
             </div>
@@ -55,16 +55,25 @@
             </div>
         </section>
         <section class="aspirations">
-            <h1>Aspirations</h1>
+            <h1 id="aspirations">Aspirations</h1>
             <p>While I’m still very new to software engineering, I have a passion for functional and object-oriented programming. My dream job would be working as a backend web developer or doing something with database management :)</p>
         </section>
         <section class="experience">
             <h1>Experience</h1>
             <p>I have experience working with HTML, CSS, and JavaScript (as you can probably see), as well as Python. In the near future, I hope to learn C# and SQL.</p>
-            <p class="experience-links">Here is my <a href="">full resume</a> and some <a href="">projects</a> I'm working on.</p>
+            <p class="experience-links">Here is my <a href="" target="_blank">full resume</a> and <a href="projects.html" target="">some projects</a> I'm working on.</p>
+        </section>
+        <a href="#top"><p class="to-top">^</p></a>
     </main>
     <footer>
-
+        <a href="">
+            <h1 id="contact">Nathan Jackson 2024</h1>
+        </a>
+        <div class="contact">
+            <a href="" target="_blank"><img src="images/facebook.png"></a>
+            <a href="https://github.com/nathanrjackson" target="_blank"><img src="images/github.png"></a>
+            <a href="https://www.linkedin.com/in/nathan-jackson-103444339/" target="_blank"><img src="images/linkedin.png"></a>
+        </div>
     </footer>
 </body>
 </html>
