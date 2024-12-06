@@ -158,6 +158,7 @@ main {
 
 .fun-facts img {
     width: calc(100% - 4px);
+    height: 350px;
     margin-top: 30px;
     border: 1px solid black;
 }

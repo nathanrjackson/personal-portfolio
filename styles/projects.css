@@ -139,7 +139,7 @@ header h1,
     cursor: pointer;
 }
 
-.project-description {
+.project-info {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -147,6 +147,27 @@ header h1,
     width: 50vw;
     height: 50vh;
     background-color: rgb(255, 255, 255, 0.9);
+}
+
+.project-info h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.project-info p {
+    margin: 30px;
+}
+
+.close-button {
+    position: absolute;
+    right: 0;
+    width: 25px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
 }
 
 .hide {
