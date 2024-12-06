@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "PT Serif";
 }
@@ -107,6 +111,47 @@ header h1,
 
 /* End header */
 /* Start main */
+
+.gallery {
+    margin-top: 60px;
+    margin-right: 300px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.project-item {
+    text-align: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px
+}
+
+.gallery h2 {
+    margin-bottom: 15px;
+}
+
+.project-item {
+    cursor: pointer;
+}
+
+.project-description {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+.hide {
+    display: none;
+}
 
 /* End main */
 /* Start footer */
