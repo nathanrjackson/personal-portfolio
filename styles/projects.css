@@ -127,8 +127,8 @@ header h1,
 }
 
 .gallery img {
-    width: 300px;
-    height: 300px
+    width: 250px;
+    height: 250px
 }
 
 .gallery h2 {
@@ -141,6 +141,7 @@ header h1,
 
 .project-info {
     position: fixed;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -154,7 +155,8 @@ header h1,
     text-align: center;
 }
 
-.project-info p {
+.project-info p,
+.project-info a {
     margin: 30px;
 }
 
